@@ -1,0 +1,89 @@
+button {
+    background-color: aqua;
+}
+
+* {
+    color: green;
+}
+
+p {
+    color: blue;
+}
+ 
+.c1 {
+    color: red;
+}
+
+#i1 {
+    color: cadetblue;
+}
+
+button:hover {
+    background-color: chartreuse;
+}
+
+p::first-letter{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:italic;
+    font-size: xx-large;
+}
+
+h3 {
+    background-color: rgb(140, 140, 200);
+}
+
+button {
+    background-image:url("MDS LOGO ON YOU.jpg");
+}
+
+p {
+    background-image: linear-gradient(rgb(99, 12, 12),rgb(205, 252, 18),cyan);
+}
+
+p {
+    border-style:dashed;
+    border-width: 10px solid;
+    border-color: blue;
+    border-radius:5px;
+    padding: 20px;
+  }
+
+  table {
+    border: 5px solid;
+    border-color: brown;
+  }
+
+ th, td {
+    border: 2px solid;
+    border-color:green;}
+
+    @keyframes ani {
+        from {background-image: linear-gradient(red,yellow);}
+        to   {background-image: linear-gradient(black,green);}
+    }
+
+    #p2 {
+        animation-name: ani;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+
+    #iml {
+        float:left;
+    }
+
+    #p3 {
+        clear: left;
+    }
+
+    p {
+        color: bisque;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: x-large;
+        text-align: center;
+        text-shadow: 2px 3px;
+        text-transform: uppercase;
+    }
+
+    
